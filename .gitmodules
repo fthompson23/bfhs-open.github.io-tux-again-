@@ -1,3 +1,6 @@
 [submodule "bfhs-open/HugoTeX"]
 	path = bfhs-open/HugoTeX
 	url = https://github.com/HelloRusk/HugoTeX
+[submodule "themes/HugoTeX"]
+	path = themes/HugoTeX
+	url = https://github.com/HelloRusk/HugoTeX

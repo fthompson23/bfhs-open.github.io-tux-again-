@@ -4,8 +4,10 @@
 
 layout: home
 ---
-# Welcome to BFHS-Open
---Welcome message goes here--
+[//]: # (Welcome to BFHS-Open)
+A center of gravity for open work happening at or associated with Benjamin Franklin High School.
+
+BHFS-Open is an initiative of the BFHS Computer Science Club in effort to create, organize, and support projects being done transparently.
 
 
 ## How to participate

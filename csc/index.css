@@ -1,0 +1,165 @@
+/* slideshow with buttons */
+#slideshow {
+    width: fit-content;
+}
+
+#slides-window {
+    width: 60rem;
+    overflow: hidden;
+}
+
+#slides {
+    position: relative; /* slides shifted with `left` */
+    transition: left .5s;
+    width: 200%; /* equal to number of slides */
+    height: 31.25rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+#keyboard {
+    position: relative;
+    left: 2.8em;
+    width: 95%;
+}
+
+#slide-buttons {
+    width: fit-content;
+    margin: 1rem auto 0;
+    display: flex;
+    column-gap: 2.5rem;
+}
+
+.slide-button {
+    width: 3.25rem;
+    height: 3.25rem;
+    cursor: pointer;
+    border: .125rem solid black;
+    background-color: #ffca38;
+    font-size: 36px;
+    line-height: 0; /* hack to vertically center oversize text */
+}
+
+/* corkboard with links */
+#board {
+    position: relative;
+    height: 30rem;
+    width: 57rem;
+    background-image: url("corkboard.png");
+    background-size: 100% 100%;
+    border: solid .5rem #e2e2e2;
+    margin-top: 2rem;
+}
+
+#board-title {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffff4a;
+    border: .125rem solid black;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+#classroom {
+    position: absolute;
+    top: 9.7rem;
+    left: 2.4em;
+}
+
+#join-us {
+    position: absolute;
+    width: 45rem;
+}
+
+#tack {
+    position: absolute;
+    width: 3.4rem;
+    height: 4.4rem;
+    left: -2rem;
+    top: -2.6rem;
+    pointer-events: none;
+}
+
+#socials {
+    position: absolute;
+    right: .9rem;
+    top: 1rem;
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: 6.5rem;
+    align-items: center;
+}
+
+.social {
+    /* the pins are part of the images, so they overlap... */
+    position: relative; /* we reverse their z-order! */
+}
+
+#instagram {
+    z-index: 2;
+}
+
+#facebook {
+    /* the icons have different dimensions... */
+    top: -.3rem; /* we shift the middle one up a bit! */
+    z-index: 1;
+}
+
+#discord {
+    z-index: 0;
+}
+
+/* notebook with people */
+#notebook {
+    position: relative;
+    height: 40rem;
+    /* image is misaligned (and oversize!) */
+    background: url("notebook.svg") center 40% / auto 50.5rem no-repeat;
+}
+
+#contact {
+    position: absolute;
+    top: 20.3rem;
+    left: 9rem;
+    height: 16rem;
+}
+
+#question {
+    position: absolute;
+    top: 4.3rem;
+    left: 5rem;
+    width: 16rem;
+}
+
+#kris {
+    position: absolute;
+    top: .3rem;
+    left: 42rem;
+    width: 18rem;
+}
+
+#helena {
+    position: absolute;
+    top: 7.3rem;
+    left: 33rem;
+    width: 17rem;
+}
+
+#trey {
+    position: absolute;
+    top: 13.3rem;
+    left: 44rem;
+    width: 16rem;
+}
+
+#austin {
+    position: absolute;
+    top: 21.3rem;
+    left: 33rem;
+    width: 22rem;
+}

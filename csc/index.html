@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BFHS CS Club</title>
+    <link rel="icon" href="bird.ico">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="column">
+        <img id="banner" src="csbackground.png" alt="BFHS CS Club logo with text &quot;Computer Science Club&quot;">
+        <nav id="pages">
+            <a id="meetings" class="button" href="meetings.html">Meetings</a>
+            <a id="projects" class="disabled"><!--href="projects.html"-->Projects</a>
+            <a id="competitions" class="disabled"><!--href="competitions.html"-->Competitions</a>
+            <a id="outreach" class="disabled"><!--href="outreach.html"-->Outreach</a>
+        </nav>
+        <div id="slideshow">
+            <div id="slides-window">
+                <!-- `left` changed by JS -->
+                <div id="slides" style="left: 0%;">
+                    <img id="keyboard" src="slide1.png" alt="Keyboard with text &quot;Welcome to our website&quot;">
+                    <iframe width="875" height="480" src="https://www.youtube.com/embed/oq2QV1nW97Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="slide-buttons">
+                <!-- the left-arrow character is off-center; you know what that means! -->
+                <button class="slide-button button" onclick="changeSlide(-1)"><div style="transform: scaleX(-1);">❯</div></button>
+                <button class="slide-button button" onclick="changeSlide(1)">❯</button>
+            </div>
+        </div>
+        <div id="board">
+            <div id="board-title">Want to See More of Computer Science Club?</div>
+            <div id="classroom">
+                <a href="https://classroom.google.com/c/MTI3OTI1OTcwODE0?cjc=nroh3sp"><img id="join-us" src="whitebutton.png" alt="Grid of club members and text &quot;Join us!&quot;" onmouseover= "changeImage(this, 'blackbutton.png')" onmouseout="changeImage(this, 'whitebutton.png')"></a>
+                <img id="tack" src="greentack.png" alt="">
+            </div>
+            <div id="socials">
+                <a target="_blank" href="https://www.instagram.com/bfhsla.compsciclub/channel/"><img id="instagram" class="social" src="instagram.png" alt="Instagram"></a>
+                <a target="_blank" href="https://www.facebook.com/Comp-Sci-Club-Bfhsla-105237675171549"><img id="facebook" class="social" src="facebook.png" alt="Facebook"></a>
+                <a target="_blank" href="https://discord.com/invite/bsFxUAyANz"><img id="discord" class="social" src="discord.png" alt="Discord"></a>
+            </div>
+        </div>
+        <div id="notebook">
+            <img id="contact" src="contact-us.svg" alt="&quot;Contact Us!&quot; sticky note">
+            <img id="question" src="ques.svg" alt="&quot;Have Questions!&quot; sticky note">
+            <img id="kris" src="kris.svg" alt="&quot;Outreach Coordinator: Kris Nguyen&quot; with profile image">
+            <img id="helena" src="helena.svg" alt="&quot;Competition Coordinator: Helena Usey&quot; with profile image">
+            <img id="trey" src="trey.svg" alt="&quot;Co-President: Trey Bowen&quot; with profile image">
+            <img id="austin" src="austin.svg" alt="&quot;Co-President: Austin Geng&quot; with profile image">
+        </div>
+    </div>
+    <script>
+        function mod(n, m) {
+            return (n % m + m) % m;
+        }
+
+        let slideIndex = 0;
+        function changeSlide(n) {
+            slideIndex = mod(slideIndex + n, 2);
+            document.getElementById("slides").style.left = `-${slideIndex}00%`;
+        }
+
+        function changeImage(element, src) {
+            element.src = src;
+        }
+    </script>
+</body>
+</html>

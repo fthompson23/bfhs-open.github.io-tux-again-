@@ -1,0 +1,93 @@
+/* SITE LAYOUT */
+
+/* primary font */
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* no default margins */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* consistently use scrollbar */
+body {
+    overflow-y: scroll;
+}
+
+/* keep contents in a center column */
+#column {
+    width: 1024px;
+    margin: 0 auto 5rem;
+}
+
+#column > * {
+    margin: 0 auto;
+}
+
+/* banner with title */
+#banner {
+    display: block;
+}
+
+/* buttons to other pages */
+#pages {
+    margin: 2rem 0;
+    display: flex;
+}
+
+#pages > * {
+    margin: 0 1rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    display: inline-block;
+    border: .125rem solid black;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: initial; /* undo default formatting */
+    text-decoration: initial;
+}
+
+#homepage {
+    background-color: darkgray;
+}
+
+#meetings {
+    background-color: #c44eff;
+}
+
+#projects {
+    background-color: #83ff46;
+}
+
+#competitions {
+    background-color: #46c1ff;
+}
+
+#outreach {
+    background-color: #ff52c5;
+}
+
+/* TEMPLATES */
+
+/* realistic button */
+.button {
+    transform: translateY(-.25rem);
+    box-shadow: 0 .25rem 0 0 gray;
+}
+
+.button:hover {
+    filter: brightness(.9);
+}
+
+.button:active {
+    transform: none;
+    box-shadow: none;
+}
+
+/* disabled interative elements */
+.disabled {
+    opacity: 50%;
+}

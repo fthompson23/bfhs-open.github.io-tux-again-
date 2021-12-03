@@ -5,8 +5,16 @@
 layout: home
 ---
 # Welcome to BFHS-Open
---Welcome message goes here--
+A center of gravity for open work happening at or associated with Benjamin Franklin High School.
 
+BHFS-Open is an initiative of the BFHS Computer Science Club in effort to create, organize, and support projects being done transparently.
+
+## Get involved
+- Attend weekly meetings
+  - Mondays from 3:30-4:30pm in room 213
+  - Tuesdays & Thursdays during lunch
+    - In room 213 & on zoom 
+- Join Discord server
 
 ## How to participate
 - [Contribute to our various projects on Github](https://github.com/BFHS-Open)

@@ -10,9 +10,9 @@ BHFS-Open is an initiative of the [BFHS Computer Science Club](/csc) in effort t
 
 ## Get involved
 - Attend weekly meetings
-  - Mondays from 3:30-4:30pm in room 213
-  - Tuesdays & Thursdays during lunch
+  - Mondays & Wednesdays during lunch
     - In room 213 & on [zoom](https://bfhsla-org.zoom.us/j/92158323105?pwd=UUh5eFpXOVkwZmNQMExIS2hrZ2RwQT09) 
+  - Mondays from 3:30-4:30pm in room 213
 - Join the CSC [Discord server](https://discord.gg/kUd3m8HMG8)
 - (coming soon) Join our IRC channel at #bfhs-open
 
@@ -24,3 +24,4 @@ BHFS-Open is an initiative of the [BFHS Computer Science Club](/csc) in effort t
 ## Projects
 - [Official BFHS-Open website](https://github.com/BFHS-Open/bfhs-open.github.io)
 - [Collective knowledge base](https://github.com/BFHS-Open/knowledge-base)
+- [Powerful new server coming soon!](https://github.com/BFHS-Open/server-admin)

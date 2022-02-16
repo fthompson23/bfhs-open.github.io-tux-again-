@@ -3,16 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+BFHS-Open is a community dedicated to the pursuit of knowledge, openness, and creativity. We strive to learn by sharing what we are working on with one another. We create and collect all of our projects with transparency in mind, so as to reach and benefit as many members of our community as possible, including other clubs at BFHS. For any prospective members, it is important to note that no prerequisite knowledge is required for membership. All one needs is the motivation and dedication to learn.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+There is much fun to be had as a member of BFHS-Open. Every Monday, we meet to have hands-on time with whatever projects the club in currently involved in. These meetings are a great opportunity to learn from other club members and experience new technologies. Additionally, we have lunch meetings on Mondays and Wednesdays, where we have discussions, make plans, and work on soft projects, such as creating posters. In the future, we also plan on participating in and/or hosting hackathons and code jams.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+With the limited time we have to meet each week, much of the progress made in each project is done asynchronously, on our own time, using collaboration tools such as Github, and we are working on hosting our own collaboration suite on the new server we were granted. We hope you will consider joining BFHS-Open!

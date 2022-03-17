@@ -19,6 +19,7 @@ BHFS-Open is an initiative of the [BFHS Computer Science Club](/csc) in effort t
 ## How to participate
 - [Contribute to our various projects on Github](https://github.com/BFHS-Open)
 - [Create your own knowledge base and share it with us](https://github.com/BFHS-Open/knowledge-base)
+- [Enter into competitions with us](/ctf/)
 
 
 ## Projects

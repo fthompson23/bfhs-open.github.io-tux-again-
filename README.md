@@ -2,11 +2,7 @@
 Website for the BFHS-Open organization, maintained by the BFHS Computer Science Club
 
 ## Resources
-- [Jekyll Documentation](https://jekyllrb.com/docs/) - Please become familiar with how Jekyll works and how to use it <br />
-- [Basic Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
+- [The Odin Project Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations): Basics of HTML, CSS, and beyond
+- [MDN Docs](https://developer.mozilla.org/en-US/): In-depth web development documentation
 
-## TODO
-- [Decide on theme + layout](https://jekyllrb.com/docs/themes/)
-- Home page
-- About page
-
+This site is written in vanilla HTML and CSS, to make it easier to read, write, and set up dev environments for. All you need to contribute is a text editor and a browser to view your changes.

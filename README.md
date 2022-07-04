@@ -6,5 +6,6 @@ This is meant as a way to involve BFHS Students in contributing to open source p
 ## Resources
 - [The Odin Project Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations): Basics of HTML, CSS, and beyond
 - [MDN Docs](https://developer.mozilla.org/en-US/): In-depth web development documentation
+- [HTML 5 Specifications](https://www.w3.org/TR/html5/): HTML Specification
 
 This site is written in vanilla HTML and CSS, to make it easier to read, write, and set up dev environments for. All you need to contribute is a text editor and a browser to view your changes.
